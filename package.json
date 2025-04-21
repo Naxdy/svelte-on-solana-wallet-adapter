@@ -25,6 +25,7 @@
         "access": "public"
     },
     "scripts": {
+        "preinstall": "npx only-allow pnpm",
         "clean": "lerna run clean",
         "build": "lerna run build",
         "test": "lerna run test",
